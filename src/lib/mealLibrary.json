@@ -1,0 +1,190 @@
+{
+    "meals": [
+      {
+        "mealName": "Italian Panzanella Salad with Mozzarella",
+        "mealURL": "https://www.gousto.co.uk/cookbook/vegetarian-recipes/italian-panzanella-salad-with-mozzarella",
+        "ingredients": [
+          { "label": "Cherry Tomatoes", "quantity": 125, "unit": "g" },
+          { "label": "Red Onion", "quantity": 1, "unit": "pieces" },
+          { "label": "Red Wine Vinegar", "quantity": 15, "unit": "ml" },
+          { "label": "Basil", "quantity": 5, "unit": "g" },
+          { "label": "Cucumber", "quantity": 0.5, "unit": "pieces" },
+          { "label": "Ciabatta", "quantity": 1, "unit": "pieces" },
+          { "label": "Mozzarella", "quantity": 125,"unit": "g" },
+          { "label": "Garlic Clove", "quantity": 1, "unit": "pieces" },
+          { "label": "Gem lettuce", "quantity": 1, "unit": "pieces" },
+          { "label": "White potato", "quantity": 2, "unit": "pieces" }
+        ]
+      },
+      {
+        "mealName": "Halloumi & Roast Veg Tray Bake with Basil Oil",
+        "mealURL": "https://www.gousto.co.uk/cookbook/vegetarian-recipes/halloumi-roast-veg-tray-bake-basil-oil",
+        "ingredients": [
+          { "label": "Courgette", "quantity": 1, "unit": "pieces" },
+          { "label": "Halloumi", "quantity": 200, "unit": "g" },
+          { "label": "Sweet potatoes", "quantity": 2, "unit": "pieces" },
+          { "label": "Basil", "quantity": 10, "unit": "g" },
+          { "label": "Garlic Clove", "quantity": 1, "unit": "pieces" },
+          { "label": "Yellow Pepper", "quantity": 1, "unit": "pieces" },
+          { "label": "Red Onion", "quantity": 1, "unit": "pieces" }
+        ]
+      },
+      {
+        "mealName": "Creamy Two-Mushroom Risotto",
+        "mealURL": "https://www.gousto.co.uk/cookbook/vegetarian-recipes/creamy-two-mushroom-risotto",
+        "ingredients": [
+          { "label": "Arborio Rice", "quantity": 160, "unit": "g" },
+          { "label": "Flat white Mushrooms", "quantity": 160, "unit": "g" },
+          { "label": "Chives", "quantity": 5, "unit": "g" },
+          { "label": "Vegetable Stock cube", "quantity": 1, "unit": "pieces" },
+          { "label": "Cheddar Cheese", "quantity": 40, "unit": "g" },
+          { "label": "Spring onion", "quantity": 1, "unit": "pieces" },
+          { "label": "Clotted cream", "quantity": 40, "unit": "g" },
+          { "label": "Garlic Clove", "quantity": 3, "unit": "pieces" },
+          { "label": "Chestnut mushrooms", "quantity": 160, "unit": "g" },
+          { "label": "Chinese rice wine", "quantity": 30, "unit": "g" }
+        ]
+      },
+      {
+        "mealName": "Warming Red Pepper Soup & Cheese Melts",
+        "mealURL": "https://www.gousto.co.uk/cookbook/vegetarian-recipes/warming-red-pepper-soup-cheese-melts",
+        "ingredients": [
+          { "label": "Cheddar Cheese", "quantity": 50, "unit": "g" },
+          { "label": "Finely chopped tomatoes", "quantity": 1, "unit": "tin" },
+          { "label": "Cayenne pepper", "quantity": 1, "unit": "tsp" },
+          { "label": "Ciabatta", "quantity": 2, "unit": "pieces" },
+          { "label": "Balsamic vinegar", "quantity": 15, "unit": "ml" },
+          { "label": "Mozzarella", "quantity": 125, "unit": "g" },
+          { "label": "Garlic Clove", "quantity": 2, "unit": "pieces" },
+          { "label": "Red Pepper", "quantity": 2, "unit": "pieces" },
+          { "label": "Onion", "quantity": 1, "unit": "pieces" }
+        ]
+      },
+      {
+        "mealName": "Italian Panzanella Salad with Mozzarella",
+        "mealURL": "https://www.gousto.co.uk/cookbook/vegetarian-recipes/italian-panzanella-salad-with-mozzarella",
+        "ingredients": [
+          { "label": "Cherry Tomatoes", "quantity": 125, "unit": "g" },
+          { "label": "Red Onion", "quantity": 1, "unit": "pieces" },
+          { "label": "Red Wine Vinegar", "quantity": 15, "unit": "ml" },
+          { "label": "Basil", "quantity": 5, "unit": "g" },
+          { "label": "Cucumber", "quantity": 0.5, "unit": "pieces" },
+          { "label": "Ciabatta", "quantity": 1, "unit": "g" },
+          { "label": "Mozzarella", "quantity": 125, "unit": "g" },
+          { "label": "Garlic Clove", "quantity": 1, "unit": "pieces" },
+          { "label": "Gem lettuce", "quantity": 1, "unit": "pieces" },
+          { "label": "White potato", "quantity": 2, "unit": "pieces" }
+        ]
+      },
+      {
+        "mealName": "Simple Cheesy Bean & Chipotle Melts",
+        "mealURL": "https://www.gousto.co.uk/cookbook/vegetarian-recipes/simple-cheesy-bean-chipotle-melts",
+        "ingredients": [
+          { "label": "Cheddar Cheese", "quantity": 80, "unit": "g" },
+          { "label": "Kidney Beans", "quantity": 1, "unit": "tin" },
+          { "label": "Natural yoghurt", "quantity": 80, "unit": "g" },
+          { "label": "Chipotle Paste", "quantity": 20, "unit": "g" },
+          { "label": "Sweet potatoes", "quantity": 1, "unit": "pieces" },
+          { "label": "Smoked paprika", "quantity": 1, "unit": "tsp" },
+          { "label": "Tortilla Wraps", "quantity": 1, "unit": "pack" },
+          { "label": "Spring onion", "quantity": 2, "unit": "pieces" }
+        ]
+      },
+      {
+        "mealName": "Refried Bean & Corn Quesadillas",
+        "mealURL": "https://www.gousto.co.uk/cookbook/vegetarian-recipes/refried-bean-corn-quesadillas",
+        "ingredients": [
+          { "label": "Sweetcorn", "quantity": 150, "unit": "g" },
+          { "label": "Kidney Beans", "quantity": 390, "unit": "g" },
+          { "label": "Cumin", "quantity": 1, "unit": "tsp" },
+          { "label": "Cheddar Cheese", "quantity": 80, "unit": "g" },
+          { "label": "Smoked paprika", "quantity": 1, "unit": "tsp" },
+          { "label": "Spring onion", "quantity": 1, "unit": "pieces" },
+          { "label": "Chipotle Paste", "quantity": 20, "unit": "g" },
+          { "label": "Tortilla Wraps", "quantity": 1, "unit": "pack" },
+          { "label": "Garlic Clove", "quantity": 2, "unit": "pieces" },
+          { "label": "Lime", "quantity": 1, "unit": "pieces" },
+          { "label": "Baby leaf salad", "quantity": 50, "unit": "g" }
+        ]
+      },
+      {
+        "mealName": "Cowboy Bean Bowl",
+        "mealURL": "https://www.gousto.co.uk/cookbook/vegetarian-recipes/cowboy-bean-bowl",
+        "ingredients": [
+          { "label": "Cheddar Cheese", "quantity": 40, "unit": "g" },
+          { "label": "Cannellini Beans", "quantity": 1, "unit": "tin" },
+          { "label": "Kidney Beans", "quantity": 1, "unit": "tin" },
+          { "label": "Tomato Paste", "quantity": 2, "unit": "tbsp" },
+          { "label": "Chipotle Paste", "quantity": 20, "unit": "g" },
+          { "label": "Sour cream", "quantity": 100, "unit": "g" },
+          { "label": "Tortilla Wraps", "quantity": 1, "unit": "pack" },
+          { "label": "Spring onion", "quantity": 1, "unit": "pieces" },
+          { "label": "Garlic Clove", "quantity": 2, "unit": "pieces" },
+          { "label": "Red Pepper", "quantity": 1, "unit": "pieces" }
+        ]
+      },
+      {
+        "mealName": "Brazilians Rice and Black Beans",
+        "mealURL": "",
+        "ingredients": [
+          { "label": "Black Beans", "quantity": 0.5, "unit": "tin" },
+          { "label": "Rice", "quantity": 25, "unit": "g" },
+          { "label": "Red Onion", "quantity": 0.5, "unit": "pieces" },
+          { "label": "Garlic Clove", "quantity": 1, "unit": "pieces" },
+          { "label": "Vegetable Stock cube", "quantity": 0.5, "unit": "pieces" },
+          { "label": "Smoked paprika", "quantity": 0.5, "unit": "tsp" }
+        ]
+      },
+      {
+        "mealName": "Burger Meal",
+        "mealURL": "",
+        "ingredients": [
+          { "label": "Burger", "quantity": 0.5, "unit": "pack" },
+          { "label": "Burger Buns", "quantity": 0.5, "unit": "pack" },
+          { "label": "Curly Fries", "quantity": 0.5, "unit": "pack" },
+          { "label": "Cheddar Cheese", "quantity": 40, "unit": "g" }
+        ]
+      },
+      {
+        "mealName": "Gnocchi with Mince and Tomato Sauce",
+        "mealURL": "",
+        "ingredients": [
+          { "label": "Gnocchi", "quantity": 0.5, "unit": "pack" },
+          { "label": "Quorn Mince", "quantity": 0.25, "unit": "pack" },
+          { "label": "Tomato Sauce", "quantity": 0.5, "unit": "tin" },
+          { "label": "Garlic Clove", "quantity": 1, "unit": "pieces" },
+          { "label": "Onion", "quantity": 0.5, "unit": "pieces" }
+        ]
+      },
+      {
+        "mealName": "Leak and Potato Soup",
+        "mealURL": "",
+        "ingredients": [
+          { "label": "Leeks", "quantity": 0.5, "unit": "pieces" },
+          { "label": "Potatoes", "quantity": 2, "unit": "pieces" },
+          { "label": "Vegetable Stock cube", "quantity": 0.5, "unit": "pieces" },
+          { "label": "Oat Milk", "quantity": 100, "unit": "ml" },
+          { "label": "Bay leaf", "quantity": 1, "unit": "pieces" },
+          { "label": "Butter beans", "quantity": 1, "unit": "tin" },
+          { "label": "Kale", "quantity": 1, "unit": "pack" }
+        ]
+      },
+      {
+        "mealName": "Cheesy Risotto & Slow-Roast Tomatoes",
+        "mealURL": "https://www.gousto.co.uk/cookbook/vegetarian-recipes/cheesy-risotto-slow-roast-tomatoes",
+        "ingredients": [
+          { "label": "Arborio Rice", "quantity": 160, "unit": "g" },
+          { "label": "Chives", "quantity": 5, "unit": "g" },
+          { "label": "Vegetable Stock cube", "quantity": 1, "unit": "pieces" },
+          { "label": "Cheddar Cheese", "quantity": 80, "unit": "g" },
+          { "label": "Turmeric", "quantity": 0.5, "unit": "tsp" },
+          { "label": "Clotted cream", "quantity": 0.5, "unit": "tsp" },
+          { "label": "Garlic Clove", "quantity": 2, "unit": "pieces" },
+          { "label": "Chinese rice wine", "quantity": 30, "unit": "ml" },
+          { "label": "Leeks", "quantity": 1, "unit": "pieces" },
+          { "label": "Cherry Tomatoes", "quantity": 250, "unit": "g" }
+        ]
+      }    
+    ]
+  }
+  
