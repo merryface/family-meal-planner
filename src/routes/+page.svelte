@@ -14,7 +14,6 @@
 
     const mealLibraryArray = mealLibrary.meals;
     $inspect(randomMeals.meals)
-    $inspect(randomMeals.shoppingList)
 
     const generateMeals = () => {
       console.log('generating meals');
@@ -34,8 +33,11 @@
     <button onclick={() => generateMeals()}>Generate Meals</button>
 </div>
 
-<ShoppingList />
-<MealLists />
+
+{#if randomMeals.meals.mealListSolo.length > 0 || randomMeals.meals.mealListWithTarik.length > 0}
+  <ShoppingList />
+  <MealLists />
+{/if}
 
 <style>
   h1 {

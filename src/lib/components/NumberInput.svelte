@@ -6,9 +6,9 @@
 <label>
     <p>{label}</p>
     <div class="buttons">
-        <button onclick={() => inc()}>+</button>
-        <p>{meals}</p>
         <button onclick={() => dec()}>-</button>
+        <p>{meals}</p>
+        <button onclick={() => inc()}>+</button>
     </div>
 </label>
 
@@ -42,9 +42,5 @@
         color: #fff;
         border-radius: 5px;
         width: 3rem;
-    }
-
-    button:hover {
-        background-color: #e1e1e1;
     }
 </style>
