@@ -11,7 +11,9 @@
     .container {
         display: flex;
         flex-direction: column;
-        margin: 1rem 2rem;       
+        align-items: center;
+        margin: 1rem 2rem;    
+        gap: 1rem;
     }
 </style>
 

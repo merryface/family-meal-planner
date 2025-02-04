@@ -5,7 +5,46 @@
 
 <label>
     <p>{label}</p>
-    <button onclick={() => inc()}>+</button>
-    <p>{meals}</p>
-    <button onclick={() => dec()}>-</button>
+    <div class="buttons">
+        <button onclick={() => inc()}>+</button>
+        <p>{meals}</p>
+        <button onclick={() => dec()}>-</button>
+    </div>
 </label>
+
+
+<style>
+    label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem 0;
+    }
+
+    p {
+        font-size: 1.5rem;
+        margin: 0.5rem;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    button {
+        background-color: #cc0000;
+        border: none;
+        padding: 0.5rem 1rem;
+        margin: 0 0.5rem;
+        cursor: pointer;
+        color: #fff;
+        border-radius: 5px;
+        width: 3rem;
+    }
+
+    button:hover {
+        background-color: #e1e1e1;
+    }
+</style>

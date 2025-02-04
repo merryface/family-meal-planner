@@ -37,3 +37,27 @@
 <ShoppingList />
 <MealLists />
 
+<style>
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+</style>
