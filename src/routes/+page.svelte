@@ -37,6 +37,17 @@
     localStorage.setItem('mealPlannerData', JSON.stringify(mealPlannerData));
   };
 
+  const clearAllMeals = () => {
+    // Clear the random meals and shopping list.
+    randomMeals.meals = [];
+    randomMeals.shoppingList = [];
+    mealCounts.total = 0;
+    mealCounts.withTarik = 0;
+
+    // Remove the saved meal planner data from local storage.
+    localStorage.removeItem('mealPlannerData');
+  }
+
     // onMount: load saved meal planner data (if any) from local storage
     onMount(() => {
     const savedData = localStorage.getItem('mealPlannerData');
@@ -60,7 +71,7 @@
 <div class="form">
     <NumberInput label="Meals to Generate" meals={mealCounts.total} inc={() => mealCounts.total+=1} dec={() => mealCounts.total-=1} />
     <NumberInput label="Meals Tarik is Home" meals={mealCounts.withTarik} inc={() => mealCounts.withTarik+=1} dec={() => mealCounts.withTarik-=1}  />
-    <button onclick={() => generateMeals()}>Generate Meals</button>
+    <button onclick={generateMeals}>Generate Meals</button>
 </div>
 
 
@@ -68,6 +79,7 @@
   <ShoppingList />
   <MealLists />
   
+  <button class="warning" onclick={clearAllMeals}>Clear All Meals</button>
 {/if}
 
 <style>
@@ -92,5 +104,9 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+  }
+
+  .warning {
+    background-color: #f44336;
   }
 </style>
