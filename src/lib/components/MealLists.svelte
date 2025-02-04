@@ -4,7 +4,6 @@
     import MealList from './MealList.svelte';
   </script>
   
-  <h1>Meals</h1>
   
   <div class="mealList">
     {#if randomMeals.meals.mealListSolo.length > 0}
@@ -14,3 +13,18 @@
       <MealList meals={randomMeals.meals.mealListWithTarik} header="Meals when Tarik home" />
     {/if}
   </div>
+
+  <style>
+    .mealList {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 90%;
+      max-width: 400px;
+      padding-top: 2rem;
+      border: 2px solid #adacac;
+      border-radius: 3px;
+      padding: 0.5rem;
+    }
+
+  </style>
