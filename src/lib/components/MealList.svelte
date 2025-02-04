@@ -6,7 +6,7 @@
 <div class="mealList">
     <h2>{header}</h2>
     {#each meals as meal}
-        <a href={meal.mealURL} class="meal">
+        <a href={meal.mealURL} class="meal" target="_blank">
             <span>{meal.mealName}</span>
         </a>
     {/each}
