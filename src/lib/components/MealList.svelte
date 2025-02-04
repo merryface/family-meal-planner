@@ -8,6 +8,9 @@
     {#each meals as meal}
         <a href={meal.mealURL} class="meal" target="_blank">
             <span>{meal.mealName}</span>
+            {#if meal.mealURL === ''}
+                <span>⛓️‍💥</span>
+            {/if}
         </a>
     {/each}
 </div>
