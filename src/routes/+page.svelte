@@ -94,6 +94,11 @@
     flex-direction: column;
     gap: 1rem;
     margin: 1rem 0;
+    border: 2px solid #adacac;
+    border-radius: 3px;
+    padding: 0.5rem;
+    width: 90%;
+    max-width: 400px;
   }
 
   button {
