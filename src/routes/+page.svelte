@@ -3,6 +3,7 @@
     import NumberInput from '$lib/components/NumberInput.svelte';
     import ShoppingList from '$lib/components/ShoppingList.svelte';
     import MealLists from '$lib/components/MealLists.svelte';
+    import { onMount } from 'svelte';
 
     // scripts
     import mealRandomiser from '$lib/scripts/mealRandomiser';
@@ -13,15 +14,44 @@
     import { mealCounts, randomMeals } from '$lib/state/meals.svelte.js'
 
     const mealLibraryArray = mealLibrary.meals;
-    $inspect(randomMeals.meals)
 
     const generateMeals = () => {
-      console.log('generating meals');
-      randomMeals.updateRandomMeals(mealCounts.total, mealCounts.withTarik, mealLibraryArray);
-      if (!randomMeals.meals) return;
+    console.log('generating meals');
+    // Update the random meals based on the current meal counts and library.
+    randomMeals.updateRandomMeals(mealCounts.total, mealCounts.withTarik, mealLibraryArray);
+    
+    // Check that there are meals generated.
+    if (!randomMeals.meals || randomMeals.meals.length === 0) return;
 
-      randomMeals.updateShoppingList();
+    // Update the shopping list based on the generated meals.
+    randomMeals.updateShoppingList();
+
+    // Package the current meal and shopping list data.
+    const mealPlannerData = {
+      meals: randomMeals.meals,
+      // Assuming your store sets a property for the shopping list.
+      shoppingList: randomMeals.shoppingList
+    };
+
+    // Save the data as a JSON string in local storage.
+    localStorage.setItem('mealPlannerData', JSON.stringify(mealPlannerData));
+  };
+
+    // onMount: load saved meal planner data (if any) from local storage
+    onMount(() => {
+    const savedData = localStorage.getItem('mealPlannerData');
+    if (savedData) {
+      try {
+        const parsedData = JSON.parse(savedData);
+        // Update the randomMeals state with the loaded data
+        // Adjust these assignments based on your store's API
+        randomMeals.meals = parsedData.meals;
+        randomMeals.shoppingList = parsedData.shoppingList;
+      } catch (error) {
+        console.error('Failed to parse saved meal planner data:', error);
+      }
     }
+  });
 
 </script>
 
@@ -34,9 +64,10 @@
 </div>
 
 
-{#if randomMeals.meals.mealListSolo.length > 0 || randomMeals.meals.mealListWithTarik.length > 0}
+{#if Object.keys(randomMeals.meals).length > 0}
   <ShoppingList />
   <MealLists />
+  
 {/if}
 
 <style>

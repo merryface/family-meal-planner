@@ -7,6 +7,10 @@
   <h1>Meals</h1>
   
   <div class="mealList">
-    <MealList meals={randomMeals.meals.mealListSolo} header="Meals when Tarik on Tour" />
-    <MealList meals={randomMeals.meals.mealListWithTarik} header="Meals when Tarik home" />
+    {#if randomMeals.meals.mealListSolo.length > 0}
+      <MealList meals={randomMeals.meals.mealListSolo} header="Meals when Tarik on Tour" />
+    {/if}
+    {#if randomMeals.meals.mealListWithTarik.length > 0}
+      <MealList meals={randomMeals.meals.mealListWithTarik} header="Meals when Tarik home" />
+    {/if}
   </div>

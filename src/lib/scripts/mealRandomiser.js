@@ -1,26 +1,33 @@
 export default (totalMeals, mealsWithTarik, goustoMeals) => {
+    let cancelled = true;
     if (totalMeals < mealsWithTarik) {
         alert('Total meals must be greater than or equal to meals with Tarik Home');
-        return
+        return []
     }
 
     if (totalMeals === 0) {
         alert('Total meals must be greater than 0');
-        return
+        return []
     }
 
+    if (totalMeals > 0) cancelled = false;
+    if (cancelled) return [];
 
-	const soloMeals = totalMeals - mealsWithTarik;
-    
-    // Randomly select meals with Tarik Home
-    const mealListWithTarik = randomMealSelector(mealsWithTarik, goustoMeals);
+    if (!cancelled) {
 
-    // Randomly select solo meals
-    const mealListSolo = randomMealSelector(soloMeals, goustoMeals);
-
-    return {
-        mealListWithTarik,
-        mealListSolo
+        
+        const soloMeals = totalMeals - mealsWithTarik;
+        
+        // Randomly select meals with Tarik Home
+        const mealListWithTarik = randomMealSelector(mealsWithTarik, goustoMeals);
+        
+        // Randomly select solo meals
+        const mealListSolo = randomMealSelector(soloMeals, goustoMeals);
+        
+        return {
+            mealListWithTarik,
+            mealListSolo
+        }
     }
 }
 
