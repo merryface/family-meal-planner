@@ -2,6 +2,7 @@
   // components
     import NumberInput from '$lib/components/NumberInput.svelte';
     import ShoppingList from '$lib/components/ShoppingList.svelte';
+    import MealLists from '$lib/components/MealLists.svelte';
 
     // scripts
     import mealRandomiser from '$lib/scripts/mealRandomiser';
@@ -34,4 +35,5 @@
 </div>
 
 <ShoppingList />
+<MealLists />
 
