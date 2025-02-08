@@ -21,9 +21,9 @@ function addUpIngredientQuantities(ingredients, numberOfPeople = 1) {
     
     // Use the label value as the key for ingredientsQuantities
     if (ingredientsQuantities[label]) {
-      ingredientsQuantities[label].quantity += (quantity/2) * numberOfPeople;
+      ingredientsQuantities[label].quantity += (quantity) * numberOfPeople;
     } else {
-      ingredientsQuantities[label] = { quantity: (quantity/2) * numberOfPeople, unit };
+      ingredientsQuantities[label] = { quantity: (quantity) * numberOfPeople, unit };
     }
   });
 
