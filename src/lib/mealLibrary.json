@@ -184,7 +184,42 @@
           { "label": "Leeks", "quantity": 1, "unit": "pieces" },
           { "label": "Cherry Tomatoes", "quantity": 250, "unit": "g" }
         ]
-      }    
+      },
+      {
+        "mealName": "Kimchi Tofu Scramble (p2)",
+        "mealURL": "/localRecipes/highProteinVeggieMeals.pdf",
+        "ingredients": [
+          { "label": "Tofu", "quantity": 450, "unit": "g" },
+          { "label": "Tamari", "quantity": 1, "unit": "tbsp" },
+          { "label": "Kale (chopped, no stems)", "quantity": 70, "unit": "g" },
+          { "label": "Nutritional Yeast", "quantity": 2, "unit": "tbsp" },
+          { "label": "Kimchi (drained)", "quantity": 150, "unit": "g" }
+        ]
+      },
+      {
+        "mealName": "One Pan Tempeh & Veggies (p3)",
+        "mealURL": "/localRecipes/highProteinVeggieMeals.pdf",
+        "ingredients": [
+          { "label": "Balsamic vinegar", "quantity": 60, "unit": "ml" },
+          { "label": "Vegetable Stock cube", "quantity": 1, "unit": "pieces" },
+          { "label": "Garlic", "quantity": 2, "unit": "pieces" },
+          { "label": "Tempeh", "quantity": 255, "unit": "g" },
+          { "label": "Broccoli", "quantity": 300, "unit": "g" },
+          { "label": "Broccoli", "quantity": 300, "unit": "g" },
+          { "label": "Edamame", "quantity": 75, "unit": "g" },
+          { "label": "Cauliflower Head", "quantity": 0.25, "unit": "pieces" },
+          { "label": "Red Pepper", "quantity": 0.5, "unit": "pieces" }
+        ]
+      },
+      {
+        "mealName": "Mushroom & Chive Omelette (p6)",
+        "mealURL": "/localRecipes/highProteinVeggieMeals.pdf",
+        "ingredients": [
+          { "label": "Mushrooms", "quantity": 160, "unit": "g"},
+          { "label": "Egg", "quantity": 4, "unit": "pieces"},
+          { "label": "Chives", "quantity": 5, "unit": "g"}
+        ]
+      }
     ]
   }
   
